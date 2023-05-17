@@ -1,0 +1,13 @@
+1. Created a new API application
+2. Add a new API empty controller
+3. Add 3 action methods 
+		without  parameter
+		with 1 parameter
+		with 2 parameters
+
+4. Added the attributes 
+	[HttpGet]
+	[Route]
+5. Built the application, tested the application
+	Swagger to test the api 
+		

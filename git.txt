@@ -2,7 +2,7 @@ Me Trainer
 
 1. start command prompt, navigate to folder on desktop / any workspace
 
-2. git clone git clone https://github.com/nikhilshah85/26042023---.Net-core-webapi.git
+2. git clone git clone https://github.com/nikhilshah85/17052023---webapi---3---5.git
 
 3. Git add . (add all the files to be uploaded to git)
 
@@ -16,7 +16,7 @@ I will perform step 3 to 5 every day
 You
 
 1. start command prompt, navigate to folder on desktop / any workspace
-2.  git clone git clone https://github.com/nikhilshah85/26042023---.Net-core-webapi.git
+2.  git clone git https://github.com/nikhilshah85/17052023---webapi---3---5.git
 3. git pull (everyday)
 
 

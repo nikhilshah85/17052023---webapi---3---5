@@ -1,0 +1,22 @@
+Today : create a simplest webapi with CRUD operations with List<string>
+	TechnologyList
+
+----------------------------
+App 1: technology list - done
+
+-------------------------------------------
+Practice:
+
+Create a new WebAPI app - friendsList
+
+create a list of friends, add some default friends, and have below methods to view the friends
+
+1. get all the friends
+2. get friend by index
+3. get friend by firstcharacter (eg. if you pass a. all friends name starting with a is viewed)
+4. Add new friend
+5. delete friend
+6. edit friends name
+
+-------------------------------------------------------
+	Tomorrow : WebAPI with Object / Custom data type / Model

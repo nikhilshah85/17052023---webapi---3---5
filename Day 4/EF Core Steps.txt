@@ -1,0 +1,71 @@
+Todays app : 
+	API app with Entity framework core and sql server p to store the data in backend
+	and perform crud operations
+
+
+
+	EF : Entity framework 
+			this is based an Design Pattern ORM - object relational mapping
+
+			i.e all the objects from database is mapped to application
+		
+			database - DbContext
+			table - class - (Entity) - (poco class)
+			columns - properties in class
+			constraints - validations in class
+			procedures - functions - methods in a class
+			
+			it will perform transactions for you, CRUD operations for table haveing PK
+
+
+
+
+
+
+Step 1: Create a new database - shoppingDBAPI - add a table productsList with some values
+step 2: create a new webapi application - shoppingAPI
+step 3: Install 4 nuget packages to use EF Core
+		Microsoft.EntityFrameworkCore.Tools
+		Microsoft.EntityFrameworkCore.Design
+		Microsoft.EntityFrameworkCore
+		Microsoft.EntityFrameworkCore.SqlServer
+step 4:use Nuget package manager console - to generate ORM - poco classes and relation with db
+
+Scaffold-DbContext "server=(localdb)\ProjectModels;database=shoppingDBAPI;integrated security=true" -OutputDir Models\EF -Provider Microsoft.EntityFrameworkCore.SqlServer
+
+
+step 5: Right click on controlle folder - add controller - api - api controller with actions useing EF
+
+step 6: choose the table name as Model and Databasename as Dbcontext file
+
+step 7: In the controller class, it used DI - so we will remove
+		instanstiate a new object of context class
+		
+        private readonly ShoppingDbapiContext _context = new ShoppingDbapiContext();
+
+		comment the constructor
+
+
+step 8: build the application and test the application 
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

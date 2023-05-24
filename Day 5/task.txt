@@ -1,0 +1,19 @@
+1. Develop an WebAPI application for FoodDiliverySystem
+
+2. We should be able to allow vendors / clients and other team members to perform below operations
+
+3. View the list of FoodAvailble for dilevery (3 dishes per restautant)
+
+4. View the list of restauntants attached to your app (atleast 10 restaurants)
+
+5. View the list of restaurants by category
+	https://localhost:39439/restaurants/chinese
+			chinest /NorthIndian/SouthIndian/Chaats
+
+6. Register new User / delete / update
+		
+
+----------------------------------
+Desingn a API for the above requirement - design a database based on this
+	use EFCore to allow this operations
+	

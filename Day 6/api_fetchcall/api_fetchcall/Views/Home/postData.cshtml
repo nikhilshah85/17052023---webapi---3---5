@@ -1,0 +1,38 @@
+﻿
+
+<script>
+
+    function getpostdta()
+    {
+        var url = "https://jsonplaceholder.typicode.com/posts";
+
+        fetch(url)
+        .then(responseType=> responseType.json())
+        .then(data =>{
+        alert('got data');
+        console.log(data);
+
+        for(var i=0;i<data.length;i++)
+        {
+            $("table").append("<tr>" +
+                        "<td>" + data[i].userId + "</td>" +
+                "<td>" + data[i].id + "</td>" +
+                "<td>" + data[i].title + "</td>" +
+                "<td>" + data[i].body + "</td>" 
+
+            + "</tr>")
+        }
+
+
+
+        })
+        .catch(err =>{
+            alert('Got error');
+        })
+    }
+</script>
+
+
+<button class="btn btn-primary" onclick="getpostdta()"> Show post </button>
+
+<table class="table table-bordered"></table>

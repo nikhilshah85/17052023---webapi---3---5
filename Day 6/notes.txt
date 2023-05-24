@@ -1,0 +1,13 @@
+As a webapi - developer
+	a. Create web api 
+	b. Consume webapi data / application in your fronrend 
+			(static site, .net MVC, Java, NodeJS, PHP, Python etc...)
+
+		2 Ways to do 
+			a. Client side - Javascript based standard API - fetch API - this is W3C and Rest standard, part of modern browser
+
+			This is the fastest but less secure not to be used for scencetive data
+
+			b. server side - HttpClient - also a standard 
+			This is safest, little bit slow compared to fetch
+	

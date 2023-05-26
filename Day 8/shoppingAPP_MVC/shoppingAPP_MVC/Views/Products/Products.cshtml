@@ -1,0 +1,26 @@
+﻿
+
+
+<h1> Products List </h1>
+
+<script>
+    function getProducts()
+    {
+        var url = "https://localhost:7239/api/products";
+
+        fetch(url).then(response => response.json())
+        .then(data => {
+            alert('Success');
+            
+        })
+        .catch(err =>{
+            alert('Errorrrr !!');
+            console.log(err);
+        })
+        
+    }
+</script>
+
+<button class="btn btn-primary" onclick="getProducts()"> Show Products </button>
+
+<table class="table table-bordered"></table>

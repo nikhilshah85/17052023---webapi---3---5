@@ -1,0 +1,59 @@
+Can we consume any api - if we get the URL ??? 
+	No - security reason
+
+
+By default - API applications will not share the data
+	with the Http Feature called as CORS - cross origin resource shareing
+
+
+
+		useing CORS u can decide, which url is accessible to which client / app
+
+		eg. in my API if we have below controllers
+			productListController 
+				get (customer, admin)
+				put (admin)
+				post (admin)
+				delete (admin)
+			ordersController
+				get ( customer, admin)
+				put (custom)
+				post (customer)
+				delete (customer)
+			walletController
+				get (customer)
+				put (NoOne) - interally to app
+				post (NoOne) - internally to app
+				delete (Noone) - intrernally to app
+
+		user types are customer,admin
+
+		JSOn placeholder, by default has CORS enabled for everyone, to read the data
+
+---------------------
+		By default - any API app in any framework(.net, java, node etc...) - CORS is disabled 
+		in .net, we have to enable the CORS by adding CORS nuget package
+		and then we have create a Policy (AppPolicy) in program.cs to configure the access 
+
+		Note: CORS is not only about type of users, but also can help you to decide about
+			IPaddress 
+			Browsers (allow only chrome, no other browser)
+			Allowed only to logged in user
+			Allowed only from Indian address 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

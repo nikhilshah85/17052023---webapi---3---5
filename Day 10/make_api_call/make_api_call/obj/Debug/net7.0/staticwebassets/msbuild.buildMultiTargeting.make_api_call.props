@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\make_api_call.props" />
+</Project>

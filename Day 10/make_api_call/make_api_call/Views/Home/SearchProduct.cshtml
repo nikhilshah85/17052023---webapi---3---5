@@ -1,0 +1,36 @@
+﻿
+
+
+<script>
+    function searchProduct()
+    {
+        var pId = $("#txtId").val();
+
+        var url = "https://shoppingapi-nikhil.azurewebsites.net/api/nikhilproducts/" + pId;
+
+        fetch(url)
+        .then(format => format.json())
+        .then(data => {
+            //alert('Got Data');
+            //console.log(data);
+
+                $("#pId").text("Product Id : " + data.pid);
+                $("#pName").text("Product Name : " + data.pname);
+                $("#pCategory").text("Product Category : " + data.pcategory);
+                $("#pPrice").text("Product Price : " + data.pprice);
+                $("#pIsInStock").text("Product Is In Stock : " + data.pIsInStock);
+        }).catch(err =>{
+            console.log(err);
+        })
+    }
+    </script>
+    <input type="number"  placeholder="Please enter Product id" class="form-control" id="txtId" />
+<button onclick="searchProduct()" class="btn btn-primary"> Search Product</button>
+
+<div style="background-color:orange">
+    <h2 id="pId"> </h2>
+    <h2 id="pName"> </h2>
+    <h2 id="pCategory"> </h2>
+    <h2 id="pPrice"> </h2>
+    <h2 id="pIsInStock"> </h2>
+</div>

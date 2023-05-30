@@ -1,0 +1,9 @@
+https://shoppingapi-nikhil.azurewebsites.net/api/nikhilproducts/103
+
+create a new MVC app - make a calle to products api 
+
+	on the page give a text box - user will pass the pid - and click button
+
+	it will display data on page
+
+	

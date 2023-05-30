@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shoppingAPI_Azure", "shoppingAPI_Azure\shoppingAPI_Azure.csproj", "{3A865EF1-E3B8-4946-80FD-F5015D036134}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A865EF1-E3B8-4946-80FD-F5015D036134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A865EF1-E3B8-4946-80FD-F5015D036134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A865EF1-E3B8-4946-80FD-F5015D036134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A865EF1-E3B8-4946-80FD-F5015D036134}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F3E658A-D5BC-4E20-915D-203861BD9553}
+	EndGlobalSection
+EndGlobal

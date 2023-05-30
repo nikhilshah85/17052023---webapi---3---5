@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="shoppingapi-nikhil" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Administrator\\Desktop\\17052023\ -\ \.Net\ Core\ WebAPI\\17052023---webapi---3---5\\Day\ 10\\shoppingAPI_Azure\\shoppingAPI_Azure\\obj\\Release\\net7\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

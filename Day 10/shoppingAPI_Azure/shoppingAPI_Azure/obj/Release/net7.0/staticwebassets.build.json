@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XL3kur5rwqoiv592XVnuXP4yM8a6wCs/ZX6EFfSaiDU=",
+  "Source": "shoppingAPI_Azure",
+  "BasePath": "_content/shoppingAPI_Azure",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

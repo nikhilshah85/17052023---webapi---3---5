@@ -1,0 +1,37 @@
+			DI - ever used DI  ?
+
+	1. We create lots of objects in an application 
+		we do not write destructor
+		
+
+	2. Since the number of users has increased 
+	  	Number of request and response has also increased
+		server is getting in problems, crash, poor performance etc
+			as the object keeps lyeing in the memory
+
+	3. Thus framework says that, do not create the object
+		runtime will create the object for you and destroy it as well
+
+	4. In a web application it is a lot of request and reponse for the same user
+		app needs to maintain lots of details about the same user
+			session id, tokens, auth, query strings, cookies, roles etc...
+
+		Thus share the object
+	-----------------Run time will take care of both this problems ------------------------
+		We are been provided with 3 methods to share the object data between users
+		and to decide on when to destroy the object
+
+			a. Transcient - per call - runtime will  create a new object on request and destroy the
+					object after giveing the response
+			b. Scoped - per user - runtime will create a new object for every user, and destroy 				    then their session ends
+			c. SingleTon - Static Object - runtime will create a new object whenserver starts and 				same object will be used by all the users, destroy the object when the server stops
+
+		thus we will now on never create a new object
+
+
+
+
+
+
+
+

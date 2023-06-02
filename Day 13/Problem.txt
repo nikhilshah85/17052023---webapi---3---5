@@ -1,0 +1,24 @@
+
+
+
+
+
+		------RDBMS Databases -- SQL Server
+		------NoSQL Databases -- MongoDB - microsoft allows us to create the same in Azure
+
+				CosmoDb - service - This is a blanket service
+					5 technologies under this services
+					MongoDB - no sql db
+					PosGres - also a nosql db
+					GraphAPI - for graphs
+					Table - data stored in Columns - will understand NoSQL queries
+					Queues - for FIFO and LIFO
+
+		We wish to see - MongoDB service
+					NoSQL   - SQL 
+					database - database
+					collection - table
+					document - row
+					functions - sql statements
+	
+				

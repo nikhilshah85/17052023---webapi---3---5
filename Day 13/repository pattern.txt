@@ -1,0 +1,48 @@
+What 3 methods are available for DI 
+
+------------------------------------------------------------------------------------
+				Repository Pattern 
+
+
+		---Start up's -- for data storage
+			a. initially - XML / JSON file - free (as the data was small size)
+			b. after 6 months - Excel File - nominal cost (limited data - can query and analyze)
+			c. after 6 month - InMemory collect - data structures etc...
+			d. after 6 months - SQL Server Express - free 
+		business grows - user grows etc..
+			e. after 4 months - SQL Server paid licence
+		they got offer from Oracle to save huge cost
+			f. switch to Oracle (developers life is very pain full with all the changes)
+
+			g. after 2 years - switch to Azure cloud - sql server
+			h. after 3 months - switch - CosmoDB - mongoDB - Azure
+
+
+	Instead if u use repository design pattern - there will be like less pain on app (no-pain)
+
+-----------------------------------------------------------------------------------------------------------
+
+
+
+		our application will have 3 sources 
+			a. inMemory collection
+			b. SQL Server - table
+			c. dummy - oracle data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			

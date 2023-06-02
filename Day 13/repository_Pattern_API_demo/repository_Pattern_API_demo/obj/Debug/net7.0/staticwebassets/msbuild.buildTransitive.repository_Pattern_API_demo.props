@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\repository_Pattern_API_demo.props" />
+</Project>

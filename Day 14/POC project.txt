@@ -1,0 +1,70 @@
+
+
+
+
+				WebAPI Developer (in Microsoft termililogy)
+				REST Developer (Opensource) 
+
+			---Develope API application with InMemory collecion (data structure)
+			---API application with SQL Server Using EF Core
+			---API application with SQL Server useing EF core on Azure cloud
+			---Publish the API application on Azure cloud
+		-----------Consume the API application
+				Client Side - ? -- Fetch  (Day 8 and 10)
+				Server Side - ? -- HttpClient  (Day 11)
+			---Configure CORS -create policies
+			---Use DI - dependency injection for API application (Middleware in .net core)
+			---Repository pattern 
+----------------------------------------------------------------------------------------------------------
+			Project to be created as POC - and be submitted - to get into projects
+	Submission Date : 07th June 5:00PM
+			1. SQL Server
+			2. EF Core 
+			3. API 
+			4. Dependency injection
+			5. CORS
+			6. Repository Pattern
+
+
+	Project Name -  RestaurantAPI  
+
+		1. SearchController
+		     - SearchRestaurant (based on Cusine
+			https://localhost:89898/api/restaurant/cusine/(chinese/northindian/andhra/etc..)
+		     - SearchRestaurant (based on Name)
+			https://localhost:89898/api/restaurant/name
+		     - SearchRestaurant(based on rateings)
+			https://localhost:89898/api/restaurant/ratings/(2/3/4/5)
+
+		create data in memory as well as in sql server database table
+			have atleast 20 reacords and when user searches it should return min 5 records
+
+		Use DI and Repository pattern 
+
+		  
+		2. OrderController
+			placeOrder(dishName) - just pass a dishname and it will be added to table
+
+	have an ASP.Net MVC app to make a call and display the data for any 1 controller		
+
+
+
+		----------------------------------
+			upload the project on GIT / ZIP it 
+
+			RESTAURANTAPI_associateNo_name
+			send me on teams(if zip)
+			send a github link on teams
+			or email the link from cognizant onedrive - nikhil.shah@cognizant.com
+
+
+
+
+
+
+
+
+
+
+
+
